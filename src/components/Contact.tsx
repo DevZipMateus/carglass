@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock, MessageCircle, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Instagram } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -29,10 +29,14 @@ const Contact = () => {
               {/* WhatsApp */}
               <a
                 href="https://wa.me/5551984065484"
-                className="flex items-center space-x-4 p-4 bg-card border border-border rounded-xl hover:shadow-glass transition-all duration-300 hover:-translate-y-1 group"
+                className="flex items-center space-x-4 p-4 bg-card border border-border rounded-xl hover:shadow-lg transition-all duration-300 hover:-translate-y-1 group"
               >
                 <div className="w-14 h-14 bg-green-500 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                  <MessageCircle className="w-7 h-7 text-white" />
+                  <img 
+                    src="/whatsapp-icon.png" 
+                    alt="WhatsApp" 
+                    className="w-7 h-7"
+                  />
                 </div>
                 <div>
                   <h4 className="font-semibold text-automotive-black">WhatsApp</h4>

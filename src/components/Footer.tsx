@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, Clock, Instagram, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, Instagram } from "lucide-react";
 
 const Footer = () => {
   return (
@@ -25,7 +25,11 @@ const Footer = () => {
                 className="w-10 h-10 bg-green-500 rounded-full flex items-center justify-center hover:bg-green-600 transition-colors"
                 aria-label="WhatsApp"
               >
-                <MessageCircle className="w-5 h-5" />
+                <img 
+                  src="/whatsapp-icon.png" 
+                  alt="WhatsApp" 
+                  className="w-5 h-5"
+                />
               </a>
               <a
                 href="https://instagram.com/carglass_vidros_automotivos"

@@ -135,6 +135,10 @@ All colors MUST be HSL.
     @apply fixed bottom-4 sm:bottom-6 right-4 sm:right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-3 sm:p-4 rounded-full shadow-lg transition-colors duration-300 flex items-center justify-center;
   }
 
+  .whatsapp-button img {
+    @apply w-5 h-5 sm:w-6 sm:h-6 object-contain;
+  }
+
   .hero-button {
     @apply bg-gradient-to-r from-automotive-blue to-automotive-blue-light text-white rounded-lg font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105;
   }
