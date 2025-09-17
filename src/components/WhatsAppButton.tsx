@@ -9,7 +9,7 @@ const WhatsAppButton = () => {
       className="whatsapp-button"
       aria-label="Entrar em contato via WhatsApp"
     >
-      <MessageCircle className="w-6 h-6" />
+      <MessageCircle className="w-5 h-5 sm:w-6 sm:h-6" />
     </a>
   );
 };

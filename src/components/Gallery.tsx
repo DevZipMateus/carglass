@@ -28,31 +28,31 @@ const Gallery = () => {
   ];
 
   return (
-    <section id="gallery" className="py-20 bg-background">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="section-title">Nossos trabalhos</h2>
-          <p className="section-subtitle">
+    <section id="gallery" className="py-12 sm:py-16 lg:py-20 bg-background">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="section-title text-2xl sm:text-3xl lg:text-4xl">Nossos trabalhos</h2>
+          <p className="section-subtitle text-base sm:text-lg">
             Veja alguns exemplos dos nossos serviços e nossa estrutura preparada para atender você
           </p>
         </div>
 
-        <div className="grid grid-cols-2 gap-4 md:gap-6 max-w-4xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 lg:gap-6 max-w-5xl mx-auto">
           {images.map((image, index) => (
             <div
               key={index}
-              className="group relative overflow-hidden rounded-xl cursor-pointer hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
+              className="group relative overflow-hidden rounded-lg sm:rounded-xl cursor-pointer hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
               onClick={() => setSelectedImage(image.src)}
             >
               <img
                 src={image.src}
                 alt={image.alt}
-                className="w-full h-64 md:h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+                className="w-full h-48 sm:h-64 lg:h-80 xl:h-96 object-cover group-hover:scale-105 transition-transform duration-300"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-automotive-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <div className="absolute bottom-4 left-4 right-4">
-                  <h3 className="text-white font-semibold text-sm md:text-base">
+                <div className="absolute bottom-2 sm:bottom-4 left-2 sm:left-4 right-2 sm:right-4">
+                  <h3 className="text-white font-semibold text-xs sm:text-sm lg:text-base">
                     {image.title}
                   </h3>
                 </div>
@@ -81,10 +81,10 @@ const Gallery = () => {
           </div>
         )}
 
-        <div className="text-center mt-12">
+        <div className="text-center mt-8 sm:mt-12">
           <a
             href="https://wa.me/5551984065484"
-            className="hero-button"
+            className="hero-button inline-block text-sm sm:text-base px-6 sm:px-8 py-3 sm:py-4"
           >
             Ver mais trabalhos no WhatsApp
           </a>

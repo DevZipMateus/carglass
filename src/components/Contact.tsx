@@ -2,30 +2,30 @@ import { Phone, Mail, MapPin, Clock, MessageCircle, Instagram } from "lucide-rea
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 bg-secondary/30">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-16">
-          <h2 className="section-title">Entre em contato</h2>
-          <p className="section-subtitle">
+    <section id="contact" className="py-12 sm:py-16 lg:py-20 bg-secondary/30">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="section-title text-2xl sm:text-3xl lg:text-4xl">Entre em contato</h2>
+          <p className="section-subtitle text-base sm:text-lg">
             Estamos prontos para atender você com a qualidade e agilidade que você merece
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-8 lg:gap-12">
           {/* Contact Information */}
-          <div className="space-y-8">
+          <div className="space-y-6 lg:space-y-8">
             <div>
-              <h3 className="text-2xl font-bold text-automotive-black mb-6">
+              <h3 className="text-xl sm:text-2xl font-bold text-automotive-black mb-4 sm:mb-6">
                 Fale conosco
               </h3>
-              <p className="text-muted-foreground mb-8 leading-relaxed">
+              <p className="text-muted-foreground mb-6 lg:mb-8 leading-relaxed text-sm sm:text-base">
                 Entre em contato através de qualquer um dos canais abaixo. Nosso atendimento 
                 é personalizado e estamos sempre prontos para oferecer as melhores soluções 
                 em vidros automotivos.
               </p>
             </div>
 
-            <div className="space-y-6">
+            <div className="space-y-4 sm:space-y-6">
               {/* WhatsApp */}
               <a
                 href="https://wa.me/5551984065484"
@@ -115,35 +115,35 @@ const Contact = () => {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-card border border-border rounded-2xl p-8">
-            <h3 className="text-2xl font-bold text-automotive-black mb-6">
+          <div className="bg-card border border-border rounded-xl lg:rounded-2xl p-6 sm:p-8">
+            <h3 className="text-xl sm:text-2xl font-bold text-automotive-black mb-4 sm:mb-6">
               Solicite seu orçamento
             </h3>
-            <p className="text-muted-foreground mb-8">
+            <p className="text-muted-foreground mb-6 lg:mb-8 text-sm sm:text-base">
               Preencha o formulário abaixo e entraremos em contato rapidamente para 
               oferecer o melhor orçamento para seu veículo.
             </p>
 
-            <form className="space-y-6">
+            <form className="space-y-4 sm:space-y-6">
               <div>
                 <label className="block text-sm font-semibold text-automotive-black mb-2">
                   Nome completo
                 </label>
                 <input
                   type="text"
-                  className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-automotive-blue focus:border-transparent"
+                  className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-border rounded-lg focus:ring-2 focus:ring-automotive-blue focus:border-transparent text-sm sm:text-base"
                   placeholder="Seu nome completo"
                 />
               </div>
 
-              <div className="grid md:grid-cols-2 gap-4">
+              <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-semibold text-automotive-black mb-2">
                     Telefone
                   </label>
                   <input
                     type="tel"
-                    className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-automotive-blue focus:border-transparent"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-border rounded-lg focus:ring-2 focus:ring-automotive-blue focus:border-transparent text-sm sm:text-base"
                     placeholder="(51) 99999-9999"
                   />
                 </div>
@@ -153,20 +153,20 @@ const Contact = () => {
                   </label>
                   <input
                     type="email"
-                    className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-automotive-blue focus:border-transparent"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-border rounded-lg focus:ring-2 focus:ring-automotive-blue focus:border-transparent text-sm sm:text-base"
                     placeholder="seu@email.com"
                   />
                 </div>
               </div>
 
-              <div className="grid md:grid-cols-2 gap-4">
+              <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-semibold text-automotive-black mb-2">
                     Marca do veículo
                   </label>
                   <input
                     type="text"
-                    className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-automotive-blue focus:border-transparent"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-border rounded-lg focus:ring-2 focus:ring-automotive-blue focus:border-transparent text-sm sm:text-base"
                     placeholder="Ex: Volkswagen"
                   />
                 </div>
@@ -176,7 +176,7 @@ const Contact = () => {
                   </label>
                   <input
                     type="text"
-                    className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-automotive-blue focus:border-transparent"
+                    className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-border rounded-lg focus:ring-2 focus:ring-automotive-blue focus:border-transparent text-sm sm:text-base"
                     placeholder="Ex: Gol 2020"
                   />
                 </div>
@@ -186,7 +186,7 @@ const Contact = () => {
                 <label className="block text-sm font-semibold text-automotive-black mb-2">
                   Tipo de serviço
                 </label>
-                <select className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-automotive-blue focus:border-transparent">
+                <select className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-border rounded-lg focus:ring-2 focus:ring-automotive-blue focus:border-transparent text-sm sm:text-base">
                   <option>Selecione o serviço</option>
                   <option>Instalação de para-brisa</option>
                   <option>Instalação de vidro lateral</option>
@@ -202,7 +202,7 @@ const Contact = () => {
                 </label>
                 <textarea
                   rows={4}
-                  className="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-automotive-blue focus:border-transparent resize-none"
+                  className="w-full px-3 sm:px-4 py-2 sm:py-3 border border-border rounded-lg focus:ring-2 focus:ring-automotive-blue focus:border-transparent resize-none text-sm sm:text-base"
                   placeholder="Descreva sua necessidade ou dúvida..."
                 ></textarea>
               </div>
@@ -213,7 +213,7 @@ const Contact = () => {
                   // Redirect to WhatsApp with pre-filled message
                   window.open('https://wa.me/5551984065484?text=Olá! Gostaria de solicitar um orçamento para vidros automotivos.', '_blank');
                 }}
-                className="w-full hero-button text-center"
+                className="w-full hero-button text-center px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base"
               >
                 Enviar solicitação via WhatsApp
               </button>

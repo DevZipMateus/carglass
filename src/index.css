@@ -132,22 +132,22 @@ All colors MUST be HSL.
 
 @layer components {
   .whatsapp-button {
-    @apply fixed bottom-6 right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-3 rounded-full shadow-lg transition-colors duration-300 flex items-center justify-center;
+    @apply fixed bottom-4 sm:bottom-6 right-4 sm:right-6 z-50 bg-green-500 hover:bg-green-600 text-white p-3 sm:p-4 rounded-full shadow-lg transition-colors duration-300 flex items-center justify-center;
   }
 
   .hero-button {
-    @apply bg-gradient-to-r from-automotive-blue to-automotive-blue-light text-white px-8 py-4 rounded-lg font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105;
+    @apply bg-gradient-to-r from-automotive-blue to-automotive-blue-light text-white rounded-lg font-semibold hover:shadow-lg transition-all duration-300 hover:scale-105;
   }
 
   .service-card {
-    @apply bg-card border border-border rounded-xl p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1;
+    @apply bg-card border border-border rounded-xl p-4 sm:p-6 hover:shadow-lg transition-all duration-300 hover:-translate-y-1;
   }
 
   .section-title {
-    @apply text-3xl md:text-4xl font-bold text-automotive-black mb-4;
+    @apply font-bold text-automotive-black mb-4;
   }
 
   .section-subtitle {
-    @apply text-lg text-muted-foreground mb-8 max-w-2xl mx-auto;
+    @apply text-muted-foreground mb-8 max-w-2xl mx-auto;
   }
 }
