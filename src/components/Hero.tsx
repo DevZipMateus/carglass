@@ -2,10 +2,16 @@ import { Shield, Clock, MapPin } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative pt-32 pb-20 bg-gradient-to-br from-automotive-blue to-automotive-blue-dark overflow-hidden">
-      {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent transform rotate-12 scale-150"></div>
+    <section id="home" className="relative pt-32 pb-20 min-h-screen flex items-center overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <img 
+          src="/hero-bg.jpg" 
+          alt="Profissionais da Carglass instalando para-brisa automotivo" 
+          className="w-full h-full object-cover"
+        />
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-automotive-blue/90 via-automotive-blue/70 to-automotive-blue-dark/90"></div>
       </div>
       
       <div className="container mx-auto px-4 relative z-10">
@@ -76,8 +82,8 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className="relative">
-            <div className="bg-gradient-to-br from-glass-shimmer to-white/20 p-8 rounded-2xl backdrop-blur-sm border border-white/30">
+          <div className="relative lg:flex lg:justify-center">
+            <div className="bg-white/10 backdrop-blur-sm p-8 rounded-2xl border border-white/20 max-w-md">
               <div className="text-center text-white">
                 <h3 className="text-2xl font-bold mb-4">Atendimento personalizado</h3>
                 <p className="text-white/90 mb-6 leading-relaxed">
