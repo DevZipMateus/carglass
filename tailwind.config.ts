@@ -57,6 +57,11 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "automotive-blue": "hsl(var(--automotive-blue))",
+        "automotive-blue-light": "hsl(var(--automotive-blue-light))",
+        "automotive-blue-dark": "hsl(var(--automotive-blue-dark))",
+        "automotive-black": "hsl(var(--automotive-black))",
+        "glass-shimmer": "hsl(var(--glass-shimmer))",
       },
       borderRadius: {
         lg: "var(--radius)",
