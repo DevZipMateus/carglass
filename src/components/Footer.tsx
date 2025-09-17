@@ -7,11 +7,13 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="md:col-span-2">
-            <img 
-              src="/logo-carglass.png" 
-              alt="Carglass Vidros Automotivos" 
-              className="h-16 w-auto mb-6 filter brightness-0 invert"
-            />
+            <div className="mb-6">
+              <img 
+                src="/logo-carglass.png" 
+                alt="Carglass Vidros Automotivos" 
+                className="h-16 w-auto"
+              />
+            </div>
             <p className="text-white/80 mb-6 leading-relaxed max-w-md">
               Especialista em vidros automotivos desde 2018. Oferecemos segurança, 
               qualidade e confiança em serviços de instalação, manutenção e 
