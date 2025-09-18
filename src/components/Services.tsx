@@ -18,7 +18,7 @@ const Services = () => {
       icon: Shield,
       title: "Substituição de vidros",
       description: "Troca rápida e segura de vidros danificados, utilizando produtos de alta qualidade.",
-      features: ["Vidros originais", "Instalação profissional", "Teste de qualidade"]
+      features: ["Vidros de primeira linha", "Instalação profissional", "Teste de qualidade"]
     }
   ];
 
