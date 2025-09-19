@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 215 25% 15%;
 
-    --primary: 208 85% 35%;
+    --primary: 244 88% 15%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 210 20% 96%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 210 20% 96%;
     --muted-foreground: 215 10% 45%;
 
-    --accent: 208 85% 45%;
+    --accent: 244 88% 25%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,14 +34,14 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 208 85% 35%;
+    --ring: 244 88% 15%;
 
     --radius: 0.75rem;
 
     /* Automotive glass industry colors */
-    --automotive-blue: 208 85% 35%;
-    --automotive-blue-light: 208 85% 45%;
-    --automotive-blue-dark: 208 85% 25%;
+    --automotive-blue: 244 88% 15%;
+    --automotive-blue-light: 244 88% 25%;
+    --automotive-blue-dark: 244 88% 10%;
     --automotive-black: 215 25% 15%;
     --glass-shimmer: 195 100% 85%;
 
@@ -85,7 +85,7 @@ All colors MUST be HSL.
     --popover: 215 25% 12%;
     --popover-foreground: 0 0% 95%;
 
-    --primary: 208 85% 45%;
+    --primary: 244 88% 25%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 215 25% 18%;
@@ -94,19 +94,19 @@ All colors MUST be HSL.
     --muted: 215 25% 18%;
     --muted-foreground: 0 0% 65%;
 
-    --accent: 208 85% 50%;
+    --accent: 244 88% 35%;
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 62.8% 30.6%;
+    --destructive: 0 62.8% 30.6%;  
     --destructive-foreground: 210 40% 98%;
 
     --border: 215 25% 20%;
     --input: 215 25% 20%;
-    --ring: 208 85% 45%;
+    --ring: 244 88% 25%;
 
-    --automotive-blue: 208 85% 45%;
-    --automotive-blue-light: 208 85% 55%;
-    --automotive-blue-dark: 208 85% 35%;
+    --automotive-blue: 244 88% 25%;
+    --automotive-blue-light: 244 88% 35%;
+    --automotive-blue-dark: 244 88% 15%;
     --automotive-black: 0 0% 95%;
     --glass-shimmer: 195 100% 75%;
 
