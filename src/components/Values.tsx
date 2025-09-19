@@ -1,4 +1,4 @@
-import { Shield, Eye, Heart, Lightbulb, Users } from "lucide-react";
+import { Shield, Eye, Heart, Lightbulb, Users, Recycle } from "lucide-react";
 
 const Values = () => {
   const values = [
@@ -26,6 +26,11 @@ const Values = () => {
       icon: Users,
       title: "Valorização das pessoas",
       description: "Clientes e colaboradores são a base do nosso sucesso e crescimento sustentável."
+    },
+    {
+      icon: Recycle,
+      title: "Responsabilidade ambiental",
+      description: "Sempre levamos o vidro quebrado para seu devido descarte, cuidando do meio ambiente."
     }
   ];
 
@@ -58,7 +63,7 @@ const Values = () => {
           ))}
         </div>
 
-        <div className="grid sm:grid-cols-2 gap-6 lg:gap-8 mt-6 lg:mt-8 max-w-4xl mx-auto">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mt-6 lg:mt-8">
           {values.slice(3).map((value, index) => (
             <div key={index + 3} className="service-card text-center group">
               <div className="w-16 h-16 lg:w-20 lg:h-20 bg-gradient-to-r from-automotive-blue to-automotive-blue-light rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6 group-hover:scale-110 transition-transform duration-300">
